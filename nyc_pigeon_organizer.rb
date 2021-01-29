@@ -15,7 +15,7 @@ data.each do |key, value|
   end
 end
 end
-new_hash
+
 
   # write your code here!
 
