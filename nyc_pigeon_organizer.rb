@@ -12,7 +12,7 @@ data.each do |key, value|
 end
 end
 
-return new_hash
+new_hash
   # write your code here!
 
 end
