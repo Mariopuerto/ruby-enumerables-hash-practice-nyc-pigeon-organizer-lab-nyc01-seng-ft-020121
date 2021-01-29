@@ -6,7 +6,7 @@ data.each do |key, value|
   value.each do |new_values, names|
   names.each do |name|
   if !new_hash [name] = {}
-  end 
+  end
   if !new_hash[name][key] = []
   end
 if   !new_hash[name][key] << new_values.to_s
