@@ -5,14 +5,17 @@ new_hash = {}
 data.each do |key, value|
   value.each do |new_values, names|
   names.each do |name|
-  new_hash [name] = {}
-  new_hash[name][key] = []
-  new_hash[name][key] << new_values.to_s
+  if !new_hash [name] = {}
+  end 
+  if !new_hash[name][key] = []
+  end
+if   !new_hash[name][key] << new_values.to_s
+end
   end
 end
-end
 
-return new_hash
+
+new_hash
   # write your code here!
 
 end
